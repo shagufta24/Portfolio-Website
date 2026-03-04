@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { ExperienceDetail } from "@/components/sections/experience-detail";
 
 export const metadata: Metadata = {
-  title: "Shagufta Anjum - MCS, University of Illinois at Urbana-Champaign",
+  title: "Shagufta Anjum",
   description:
-    "Learn more about Shagufta Anjum, a graduate Computer Science student at the University of Illinois Urbana-Champaign. Aspiring Machine Learning Engineer, specializing in Large Language Models.",
+    "Portfolio Website",
 };
 
 export default function ExperiencePage() {

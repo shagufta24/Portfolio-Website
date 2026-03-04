@@ -2,25 +2,25 @@ import type { Metadata } from "next";
 import { HomeDetail } from "@/components/home/home-detail";
 
 export const metadata: Metadata = {
-  title: "Shagufta Anjum - MCS, University of Illinois at Urbana-Champaign",
+  title: "Shagufta Anjum",
   //TODO: Update description
   description:
-    "Portfolio of Shagufta Anjum, a graduate Computer Science student at the University of Illinois Urbana-Champaign. Aspiring Machine Learning Engineer, specializing in Large Language Models.",
+    "Portfolio Website",
   openGraph: {
     type: 'website',
-    title: 'Shagufta Anjum - MCS, University of Illinois at Urbana-Champaign',
-    description: 'Portfolio of Shagufta Anjum, a graduate Computer Science student at the University of Illinois Urbana-Champaign. Aspiring Machine Learning Engineer, specializing in Large Language Models.',
+    title: 'Shagufta Anjum',
+    description: 'Portfolio Website',
     images: [{
       url: '/screenshots/hero-preview.png',
       width: 1200,
       height: 630,
-      alt: 'Shagufta Anjum - Portfolio Hero Section'
+      alt: 'Shagufta Anjum'
     }]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Shagufta Anjum - MCS, University of Illinois at Urbana-Champaign',
-    description: 'Portfolio of Shagufta Anjum, a graduate Computer Science student at the University of Illinois Urbana-Champaign. Aspiring Machine Learning Engineer, specializing in Large Language Models.',
+    title: 'Shagufta Anjum',
+    description: 'Portfolio Website',
     images: ['/screenshots/hero-preview.png']
   }
 };

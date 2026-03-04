@@ -37,20 +37,20 @@ export function HomeDetail() {
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Shagufta Anjum</h1>
               <p className="text-xl text-muted-foreground mb-4">
-                Master of Computer Science, University of Illinois at Urbana-Champaign
+                Software Engineer, Applied AI at Cognida.ai
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <Badge variant="outline" className="bg-primary/10">
-                  <Cloud className="w-3 h-3 mr-2" /> Full-Stack Development
+                  <Cloud className="w-3 h-3 mr-2" /> Artificial Intelligence & Machine Learning
                 </Badge>
                 <Badge variant="outline" className="bg-primary/10">
-                  <Brain className="w-3 h-3 mr-2" /> Applied AI/ML
+                  <Brain className="w-3 h-3 mr-2" /> Full-Stack Development
                 </Badge>
                 <Badge variant="outline" className="bg-primary/10">
-                  <Code className="w-3 h-3 mr-2" /> Large Language Models
+                  <Code className="w-3 h-3 mr-2" /> Cloud & Distributed Systems
                 </Badge>
                 <Badge variant="outline" className="bg-primary/10">
-                  <Code className="w-3 h-3 mr-2" /> Cloud Technologies
+                  <Code className="w-3 h-3 mr-2" /> Data Engineering
                 </Badge>
               </div>
               <div className="flex space-x-4">
@@ -97,23 +97,23 @@ export function HomeDetail() {
               Professional Summary
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
-              <p>🌟 Hi there! I&apos;m Shagufta, a Computer Science graduate student with a passion for building software and impactful solutions using machine learning. I&apos;m actively seeking Machine Learning, Data Science, and Software Engineering roles starting in May 2025, where I can contribute to solving innovative, challenging problems and continue growing as a professional.</p>
-              <p>📚 I&apos;m currently pursuing my Master&apos;s in Computer Science at the University of Illinois Urbana-Champaign &#40;UIUC&#41;, specializing in Machine Learning and Data Science. My coursework includes Applied ML, Distributed Computing, Cloud Computing, Computer Vision, and Large Language Models.</p>
-              <p>💻 Experience Highlights:</p>
+              <p>Hi! I&apos;m Shagufta, a software engineer focused on building intelligent systems using machine learning, data, and scalable backend infrastructure.</p>
+              <p>I currently work at Cognida.ai, where I build applied AI systems to help businesses make data-driven decisions. In a startup environment with high end-to-end ownership, my work spans backend engineering, data processing, and machine-learning driven automation at production scale.</p>
+              <p>I recently completed my Masters in Computer Science at the University of Illinois Urbana-Champaign &#40;UIUC&#41; where I specialized in machine learning and data systems. My coursework includes Applied ML, Distributed Computing, Cloud Computing, Computer Vision, Large Language Models and Human Computer Interaction.</p>
+              <p>Experience Highlights:</p>
               <ul className="list-disc ml-6">
-                <li>At Dell Technologies, I developed a computer vision model for quality inspection and integrated it into real-time manufacturing systems.</li>
-                <li>At GlobalLogic Inc., I built an LLM-powered chatbot and implemented a RAG pipeline to deliver contextually accurate responses.</li>
-                <li>At Cognida.ai, I designed a computer vision system to analyze customer movement in stores, driving insights for product placement.</li>
+                <li>At Amazon, I worked on large-scale backend systems for Amazon Ads, focusing on a Bulk User Management feature that improved account access operations across 10K+ advertiser accounts.</li>
+                <li>At Dell Technologies, I developed a computer vision pipeline to automate defect detection in packaging lines using edge-captured images and real-time inference.</li>
+                <li>At GlobalLogic, I built a scalable real-time multiplayer learning platform, with interactive frontend features and AWS-based event-driven backend services.</li>
               </ul>
-              <p>📊 Research and Projects: I&apos;ve been focused on building machine learning applications that address real-world challenges. Whether it’s optimizing decision-making in healthcare, crafting intelligent systems for optimizing business operations, or advancing language/vision understanding, I love exploring ways to push the boundaries of AI.</p>
-              <p>🌱 What I&apos;m Currently Learning:</p>
+              <p>My academic research and projects have been focused on applying machine learning to real-world problems. My interests lie at the intersection of AI systems, backend infrastructure, and data pipelines—building tools that turn AI models into practical, reliable products.</p>
+              <p>What I&apos;m Currently Exploring:</p>
               <ul className="list-disc ml-6">
-                <li>Advanced training techniques for large language models</li>
-                <li>Exploring the intersection of AI and accessibility</li>
-                <li>Designing scalable, data-driven pipelines for real-world systems</li>
-                <li>Experimenting with creative AI applications in art and writing</li>
+                <li>LLLMOps and Production AI Systems</li>
+                <li>AI Agents and Autonomous Workflows</li>
+                <li>Efficient AI-Assisted Software Development</li>
               </ul>
-              <p>✨ Beyond Academics: Creativity and curiosity define my approach in life and work. I enjoy blending tech with purpose—designing accessibility-focused software, crafting data-driven stories, and brainstorming innovative ways to tackle everyday problems.</p>
+              <p>Outside of work, you&apos;ll usually find me reading, staying active, or exploring new restaurants around the city.</p>
             </div>
           </Card>
         </motion.div>
@@ -160,9 +160,7 @@ export function HomeDetail() {
             <Button className="px-6 py-3 text-lg">View Experiences</Button>
           </Link>
           <Link href="/projects">
-            <Button variant="outline" className="px-6 py-3 text-lg">
-              Explore Projects
-            </Button>
+            <Button className="px-6 py-3 text-lg">Explore Projects</Button>
           </Link>
         </div>
 
