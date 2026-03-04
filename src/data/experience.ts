@@ -18,14 +18,84 @@ export interface Experience {
   logo: string;
 }
 
-//TODO: update
 export const experiences: Experience[] = [
+
+  // Software Engineer at Cognida.ai
+  {
+    title: "Software Engineer, Applied AI",
+    company: "Cognida.ai",
+    location: "Sunnyvale, CA, United States",
+    startDate: "December 2026",
+    endDate: "Present",
+    logo: "/icons/cognida.jpg",
+    achievements: [
+      {
+        text: "Built an AI-assisted accounting data migration tool to automate mapping of entities across ERP systems, reducing manual effort for finance teams",
+      },
+      {
+        text: "Implemented NLP & LLM-based entity mapping with confidence scoring and interactive validation visualization workflows for accountants",
+      },
+      {
+        text: "Developed backend services to ingest data from ERP APIs, preprocess and normalize it for AI-based mapping and generate export-ready formats"
+      },
+      {
+        text: "Designed an API integration support pipeline for importing data from heterogenous legacy ERP finance systems to reduce manual overhead"
+      }
+    ],
+    skills: [
+      { name: "Python" },
+      { name: "Django" },
+      { name: "Docker" },
+      { name: "NLP" },
+      { name: "LLM" },
+    ],
+  },
+
+  // Software Engineer at Amazon
+  {
+    title: "Software Engineer",
+    company: "Amazon",
+    location: "New York City, NY, United States",
+    startDate: "June 2026",
+    endDate: "December 2026",
+    logo: "/icons/amazon.jpg",
+    achievements: [
+      {
+        text: "Designed and implemented a critical Bulk User Management feature for Amazon Ads to replace manual workflows with streamlined operations",
+      },
+      {
+        text: "Built distributed scalable Spring Boot APIs supporting large-scale user operations with hierarchical permission checks across 10K+ accounts",
+      },
+      {
+        text: "Architected an algorithm for account-hierarchy nesting limits using Redis-cached relationship graphs, reducing authorization latency ~35% at scale"
+      },
+      {
+        text: "Set up AWS AppConfig integration for feature gating and runtime configurations, enabling safer rollouts and controlled experimentation"
+      },
+      {
+        text: "Parallelized backend workflows for large batch operations, reducing processing time ~40–50% and improving system throughput under peak load"
+      },
+      {
+        text: "Partnered with Product/QA during UAT and launch; identified and resolved critical defects and coordinated cross-team access-control changes"
+      }
+    ],
+    skills: [
+      { name: "Java" },
+      { name: "Spring Boot" },
+      { name: "React.js" },
+      { name: "Redis" },
+      { name: "AWS" },
+      { name: "API Design" },
+    ],
+  },
+
+  // Graduate Research Assistant at UIUC
   {
     title: "Graduate Research Assistant",
     company: "University of Illinois Urbana-Champaign",
-    location: "Champaign, Illinois, United States",
+    location: "Champaign, IL, United States",
     startDate: "September 2024",
-    endDate: "Present",
+    endDate: "December 2024",
     logo: "/icons/uiuc.png",
     achievements: [
       {
@@ -46,10 +116,12 @@ export const experiences: Experience[] = [
       { name: "GPT-4" },
     ],
   },
+
+  // Software Engineer Intern at GlobalLogic
   {
     title: "Software Engineer Intern",
     company: "GlobalLogic Inc.",
-    location: "Santa Clara, California, United States",
+    location: "Santa Clara, CA, United States",
     startDate: "June 2024",
     endDate: "July 2024",
     isRemote: false,
@@ -86,7 +158,6 @@ export const experiences: Experience[] = [
     ],
     skills: [
       { name: "React.js" },
-      { name: "Javascript" },
       { name: "FastAPI" },
       { name: "Docker" },
       { name: "Python" },
@@ -99,11 +170,10 @@ export const experiences: Experience[] = [
       { name: "LLM" },
       { name: "CI/CD" },
       { name: "Redis" },
-      { name: "Authentication" },
-      { name: "JWT" },
-      { name: "Vector Database" },
     ],
   },
+
+  // Software Engineer at Dell
   {
     title: "Software Engineer",
     company: "Dell Technologies",
@@ -144,6 +214,8 @@ export const experiences: Experience[] = [
       { name: "Model Deployment" },
     ],
   },
+
+  // Software Engineer Intern at Dell
   {
     title: "Software Engineer Intern",
     company: "Dell Technologies",
@@ -160,8 +232,7 @@ export const experiences: Experience[] = [
         text: "Built a responsive Angular frontend with advanced search and filtering, integrated with Java Spring Boot APIs and PostgreSQL database",
       },
       {
-        text:
-          "Performed comprehensive data analysis of inventory, production and sales data using Pandas to identify features that impact product shortages ",
+        text: "Performed comprehensive data analysis of inventory, production and sales data using Pandas to identify features that impact product shortages ",
       },
       {
         text: "Developed a time series forecasting model using an LSTM network in TensorFlow, achieving improved demand and shortage predication ",
@@ -170,12 +241,10 @@ export const experiences: Experience[] = [
         text: "Built an automated, scalable ETL pipeline using Apache Airflow, reducing data processing time and ensuring fast model inference ",
       },
       {
-        text:
-          "Enabled interactive data visualization using charting libraries and optimized database queries for fast retrieval to ensure a smooth user experience ",
+        text: "Enabled interactive data visualization using charting libraries and optimized database queries for fast retrieval to ensure a smooth user experience ",
       },
       {
-        text:
-          "Implemented a real-time notification system using Web Sockets and RabbitMQ, reducing user response time to critical events by 50% ",
+        text: "Implemented a real-time notification system using Web Sockets and RabbitMQ, reducing user response time to critical events by 50% ",
       },
     ],
     skills: [
@@ -195,6 +264,8 @@ export const experiences: Experience[] = [
       { name: "ETL Pipeline" },
     ],
   },
+
+  // Machine Learning Engineer Intern at Cognida
   {
     title: "Machine Learning Engineer Intern",
     company: "Cognida.ai",
@@ -204,16 +275,13 @@ export const experiences: Experience[] = [
     logo: "/icons/cognida.jpg",
     achievements: [
       {
-        text:
-          "Developed a computer vision system using OpenCV and PyTorch to track individual customer movements in supermarkets in surveillance video feed"
+        text: "Developed a computer vision system using OpenCV and PyTorch to track individual customer movements in supermarkets in surveillance video feed"
       },
       {
-        text:
-        "Implemented the DeepSORT algorithm for multi-object tracking across camera views, and applied image inpainting to deal with occlusions"
+        text: "Implemented the DeepSORT algorithm for multi-object tracking across camera views, and applied image inpainting to deal with occlusions"
       },
       {
-        text:
-        "Created visualizations of the collected data to provide insights into customer behavior and enable optimization of product placement"
+        text: "Created visualizations of the collected data to provide insights into customer behavior and enable optimization of product placement"
       }
     ],
     skills: [

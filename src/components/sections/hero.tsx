@@ -37,7 +37,7 @@ export function Hero() {
               Hi, I&apos;m Shagufta Anjum
             </h1>
             <p className="mt-6 text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl">
-              MCS, UIUC | Aspiring ML Engineer | AWS Certified | AI/ML & GenAI Enthusiast
+              ...
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link

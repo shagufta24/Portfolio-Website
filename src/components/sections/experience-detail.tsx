@@ -17,14 +17,14 @@ export function ExperienceDetail() {
     <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-background">
       <div className="container mx-auto px-4 py-10">
 
-        {/* Education - Supporting qualifications */}
+        {/* Education */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
           className="mb-10"
         >
-          <h2 className="text-2xl font-semibold mb-6 flex items-center gap-2">
+          <h2 className="text-3xl font-bold mb-8 flex items-center gap-2">
               <GraduationCap className="w-8 h-8 text-primary" />
               Education
             </h2>
@@ -79,7 +79,7 @@ export function ExperienceDetail() {
 
 
         </motion.div>
-        {/* Work Experience - Most important for recruiters */}
+        {/* Work Experience*/}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
